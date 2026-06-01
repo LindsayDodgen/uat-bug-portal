@@ -11,7 +11,7 @@
   }
 
   .lbe-header {
-    background-color: #0b438c;
+    background-color: #0505af;
     color: white;
     padding: 16px 24px;
     margin-bottom: 32px;
@@ -34,8 +34,8 @@
   }
 
   .btn-primary {
-    background-color: #1a73e8;
-    border-color: #1a73e8;
+    background-color: #0505af;
+    border-color: #0505af;
   }
 
   .btn-primary:hover {
@@ -60,6 +60,11 @@
   .form-control:focus, .form-select:focus {
     border-color: #1a73e8;
     box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.2);
+  }
+
+  .form-label {
+    color: #1a1aad;
+    font-weight: 700;
   }
 </style>
 
@@ -155,7 +160,7 @@
                 <div class="invalid-feedback">Please enter your name.</div>
               </div>
 
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" #0505af class="btn btn-primary">Submit</button>
 
             </form>
           </div>

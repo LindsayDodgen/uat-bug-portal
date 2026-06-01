@@ -19,7 +19,7 @@ $bugs = $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
     .lbe-header {
-      background-color: #1a73e8;
+      background-color: #0505af;
       color: white;
       padding: 16px 24px;
       margin-bottom: 32px;
