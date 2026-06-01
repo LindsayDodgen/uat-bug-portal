@@ -24,7 +24,7 @@ Any browser
 - Click any bug in the list to view its full details
 - To go back to the form click "+ New Bug Report"
 
-*Areas of Struggle
+*Blockers
 
 During development i ran into alot of issues making the screenshot upload to work with the database, with some debugging i found that i had to add (enctype="multipart/form-data" ) in the forms.php because in the submit.php: 
 (if (isset($_FILES['screenshot']) && $_FILES['screenshot']['error'] === 0) {)
