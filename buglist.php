@@ -78,9 +78,9 @@ $bugs = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="lbe-header d-flex justify-content-between align-items-center mb-4">
       <div>
         <h1>Bug Reports</h1>
-        <p>All submitted bug reports for lbe-vle</p>
+        <p>All submitted bug reports</p>
       </div>
-      <a href="forms.php" class="btn btn-light">+ New Bug Report</a>
+      <a href="forms.php" class="btn btn-light">New Bug Report</a>
     </div>
 
     <?php if (count($bugs) === 0): ?>
