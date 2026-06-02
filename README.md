@@ -1,6 +1,6 @@
 *UAT Bug Report Portal
 
-A simple web app that allows testers to submit bug reports found during UAT testing of lbe-vle. Once submitted, each report is saved to a database and can be viewed in a bug list. You can also click on any bug to see its full details.
+A simple web app that allows testers to submit bug reports found during UAT testing. Once submitted, each report is saved to a database and can be viewed in a bug list. You can also click on any bug to see its full details.
 
 *Requirements
 
@@ -22,7 +22,7 @@ Any browser
 - Fill in the form to submit a bug report and click "Submit"
 - You will be taken to the bug list where all submitted reports are shown
 - Click any bug in the list to view its full details
-- To go back to the form click "+ New Bug Report"
+- To go back to the form click "New Bug Report"
 
 *Blockers
 
