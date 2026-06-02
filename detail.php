@@ -93,7 +93,7 @@ if (!$bug) {
         <p>Submitted by <?= htmlspecialchars($bug['tester_name']) ?> on <?= date('d M Y, H:i', strtotime($bug['created_at'])) ?></p>
       </div>
         <!-- addition of a back button -->
-      <a href="buglist.php" class="btn btn-light">&larr; Back</a>
+      <a href="buglist.php" class="btn btn-light">Back</a>
     </div>
 
     <table class="table table-bordered">
